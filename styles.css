@@ -1,0 +1,48 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toolbar
+{
+    margin-bottom: 10px;
+}
+
+.toolbar button
+{
+    margin-right: 5px;
+}
+
+.formula-bar
+{
+    margin-bottom: 10px;
+}
+
+#formula-input
+{
+    width: 300px;
+    padding: 5px;
+}
+
+.spreadsheet
+{
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 2px;
+
+}
+
+.cell
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.cell:focus
+{
+    border: 2px solid #4d90fe;
+    outline: none;
+}
